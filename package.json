@@ -1,0 +1,21 @@
+{
+  "name": "tube3d",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "polymer serve",
+    "build": "polymer build",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0",
+    "three": "^0.101.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "polymer-cli": "^1.9.6"
+  }
+}

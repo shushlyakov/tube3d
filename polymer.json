@@ -1,0 +1,13 @@
+{
+  "shell": "src/app-editor.js",
+  "entrypoint": "index.html",
+  "npm": true,
+  "moduleResolution": "node",
+  "sources": ["src/**"],
+  "extraDependencies": [],
+  "builds": [{
+    "name": "es6prod",
+    "preset": "es6-bundled",
+    "addServiceWorker": true
+  }]
+}
